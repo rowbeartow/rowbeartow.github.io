@@ -1,7 +1,10 @@
 /** Test  **/
 
-img {
-   max-width: 800px;
-    align-content: center;
-       
+.wrapper {
+   width: 100%;
+   margin: 0 auto; 
+}
+
+.main-header {
+	background: #121925;
 }
