@@ -1,6 +1,6 @@
 /** Test  **/
 
-.wrapper {
+.container {
    width: 100%;
    margin: 0 auto; 
 }
@@ -12,4 +12,5 @@
 .name {
     font-family: helvetica;
     color: white
+        
 }
