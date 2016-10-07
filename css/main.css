@@ -8,3 +8,8 @@
 .main-header {
 	background: #121925;
 }
+
+.name {
+    font-family: helvetica;
+    color: white
+}
