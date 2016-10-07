@@ -1,5 +1,9 @@
 /** Test  **/
 
+img.personal-image {
+    max-width: 800px;
+    
+}
 .container {
    width: 100%;
    margin: 0 auto; 
