@@ -1,7 +1,7 @@
 /** Test  **/
 
-img.personal-image {
-    max width   800px
-    align-content: center
+img#personal-image {
+   max-width: 800px;
+    align-content: center;
        
 }
