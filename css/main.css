@@ -20,7 +20,27 @@ img.personal-image {
     padding: 20px;
     font-weight: bold;
     color: white;
-    
-    
+       
 }
 
+ul {
+    
+    list-style: none;
+}
+
+
+}
+img.pizza {
+    
+    max-width: 400px;
+}
+
+img.bacon {
+    
+    max-width: 800px;
+}
+
+img.sushi {
+    
+    max-width: 800px;
+}
