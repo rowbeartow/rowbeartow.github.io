@@ -68,7 +68,7 @@ img.personal-image {
 }
 
 .favorite-meals {
-    padding-top: 75px;   
+    padding-top: 100px;   
     
 }
 
@@ -114,6 +114,12 @@ img.sushi {
         .wrapper {
             min-height: calc(100vh - 89px);
         }
+    
+        .main-header {
+            
+            position: fixed;
+        }
+    
     }
     
     @media (min-width: 1025px) {
