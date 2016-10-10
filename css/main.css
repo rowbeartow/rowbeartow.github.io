@@ -19,18 +19,70 @@ img.personal-image {
     font-size: 3em;
     padding: 20px;
     font-weight: bold;
-    color: white;
-       
+    color: white;  
+    
 }
+
+.wrapper {
+    
+    margin: 0 auto;
+    width: 60%;
+    font-family: helvetica;
+    text-align: left;
+    font-size: 1.3em;
+
+}
+
+
+.about-me {
+    
+    color: #306a89;
+    
+}
+
+.goals-aspirations {
+    
+    color: #073d40;
+}
+
+.book-section {
+    
+    color: #497017;
+    
+}
+
+
+
+.quote {
+    
+
+    
+}
+
+.dunces {
+    
+    float: left;
+    margin-top: 5px;
+    margin-right: 25px;
+    
+}
+
+.favorite-meals {
+    padding-top: 75px;   
+    
+}
+
 
 ul {
     
     list-style: none;
+    color: #073d40;
 }
 
-img.pizz {
+img.pizza {
     
-    max-width: 400px;
+    max-width: 800px;
+    
 }
 
 img.bacon {
@@ -42,3 +94,41 @@ img.sushi {
     
     max-width: 800px;
 }
+
+.main-footer {
+	background: #306a89;
+    font-size: 1em;
+    padding: 20px;
+    font-weight: bold;
+    color: white;   
+    
+
+    
+/**************************** 
+    
+    MEDIA QUERIES 
+
+*****************************/
+    
+    @media (min-width: 769px) {
+        .wrapper {
+            min-height: calc(100vh - 89px);
+        }
+    }
+    
+    @media (min-width: 1025px) {
+  .wrapper {
+    width: 80%;
+    max-width: 1150px;
+}
+    
+    /**************************** 
+    
+     .container {
+            width:
+            max-width:
+            margin:
+            
+        }
+
+*****************************/
