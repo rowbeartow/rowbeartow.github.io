@@ -52,23 +52,17 @@ img.personal-image {
 }
 
 
-
-.quote {
-    
-
-    
-}
-
 .dunces {
     
     float: left;
     margin-top: 5px;
     margin-right: 25px;
     
-}
+} 
 
 .favorite-meals {
-    padding-top: 100px;   
+    clear: both;
+    padding-top: 15px;
     
 }
 
@@ -82,12 +76,13 @@ ul {
 img.pizza {
     
     max-width: 800px;
-    
+     
 }
 
 img.bacon {
     
     max-width: 800px;
+    
 }
 
 img.sushi {
@@ -113,13 +108,7 @@ img.sushi {
     @media (min-width: 769px) {
         .wrapper {
             min-height: calc(100vh - 89px);
-        }
-    
-        .main-header {
-            
-            position: fixed;
-        }
-    
+        } 
     }
     
     @media (min-width: 1025px) {
@@ -127,6 +116,7 @@ img.sushi {
     width: 80%;
     max-width: 1150px;
 }
+    }
     
     /**************************** 
     
